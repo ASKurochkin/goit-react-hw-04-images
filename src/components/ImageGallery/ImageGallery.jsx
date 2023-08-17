@@ -56,7 +56,7 @@ export default function ImageGallery({ searchName }) {
         .catch(er => setStatus('rejected'));
     };
     getAsyncFetch();
-  }, [page, secondFetch]);
+  }, [page, searchName, secondFetch]);
 
   const handleClickButtonMore = () => {
     setPage(prevState => prevState + 1);
