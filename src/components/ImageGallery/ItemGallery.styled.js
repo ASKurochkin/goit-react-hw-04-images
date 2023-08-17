@@ -35,5 +35,3 @@ export const Wrapper = styled.div`
 
     margin-top:30px;
 `
-
-
